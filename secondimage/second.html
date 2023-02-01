@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserData</title>
+</head>
+<body>
+    <div class="name" id="name_username" style="text-align: center; " >
+       <h1>
+        Welcome... <span id="result"></span>
+         <span id="result1"></span>
+       </h1>
+    </div>
+    <script >
+        document.getElementById("result").innerHTML=localStorage.getItem("name");
+        document.getElementById("result1").innerHTML=localStorage.getItem("username")
+        
+    </script>
+</body>
+</html>
